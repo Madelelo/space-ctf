@@ -1,12 +1,28 @@
 body {
-    background-color: #0b0c10;
+    background-color: black;
     color: #66fcf1;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+  }
+
+  .rocket {
+    font-size: 4rem;
+    position: relative;
+    transform: translateY(-500px);
+    transition: transform 1s ease-in-out;
+    
+  }
+  .launched {
+    transform: translateY(0);
+  }
+a#rocket{
+    color: black;
+    opacity: 100%;
 }
 
 h1, h2 {
-    color: #45a29e;
+    color: #66fcf1;
+    padding: 5%;
 }
 
 code {

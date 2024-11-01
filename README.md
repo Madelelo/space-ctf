@@ -1,15 +1,16 @@
-# Hvordan lage en CTF med JavaScript, HTML, CSS og grunnleggende datasikkerhet
+# Hvordan lage en CTF 
+## En kombo av JavaScript og datasikkerhet
 
 CTF står for "capture the flag" og er en slags digital rebus hvor spillerne må løse forskjellige gåter for å finne "flagg" de kan bruke til å komme videre. 
 
-[Sjekk ut min CTF her](https://madelelo.github.io/space-ctf/)
+[Sjekk ut min Space CTF her](https://madelelo.github.io/space-ctf/)
 
 ## Steg 0: Velg et tema og en historie
 For eksempel, valgte jeg verdensrommet for min CTF og tar spilleren med på en reise til forskjellige planeter.
 
 ## Steg 1: Sett opp en prosjektmappe
 - Opprett en prosjektmappe
-- Inne i denne mappen, opprett:
+- Inne i denne mappen skal du lage følgende filer: 
    - En `index.html`-fil
    - En `styles.css`-fil for styling
    - En `script.js`-fil for JavaScript
@@ -22,7 +23,7 @@ For eksempel, valgte jeg verdensrommet for min CTF og tar spilleren med på en r
    - Eksempelstruktur for hver oppgave: `oppgave1.html`, `oppgave2.html`, `oppgave3.html` osv. 
 
 ## Steg 3: Implementer JavaScript-logikk
-- Sett opp en funksjon i `script.js` for å sjekke om spillerens svar er riktig for hver oppgave. For eksempel `sjekkSvar(oppgaveNummer)`.
+- Lag en funksjon i `script.js` for å sjekke om spillerens svar er riktig for hver oppgave. For eksempel `sjekkSvar(oppgaveNummer)`.
 
 ## Steg 4: Design oppgavene
 **Oppgave 1: Encoding**
