@@ -37,3 +37,8 @@ padding: 50px;
 #this-is-not-a-hint:hover {
     cursor:none;
 }
+
+::selection {
+    color:black;
+    background: black;
+  }
