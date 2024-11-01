@@ -54,7 +54,7 @@ padding: 50px;
     cursor:none;
 }
 
-::selection {
+.harder ::selection {
     color:black;
     background: black;
   }
