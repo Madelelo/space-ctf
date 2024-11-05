@@ -38,7 +38,8 @@ For eksempel, valgte jeg verdensrommet for min CTF og tar spilleren med på en r
 
 **Oppgave 3: Steganografi**
 - Lag en oppgave med steganografi og legg til oppgaven i `oppgave3.html`.
-  For å lage et bilde med en skjult melding kan du bruke: `cat originalImage.jpg zipFileWithMessageTxt.zip > stegonographyImage.jpg`.
+  For å lage et bilde med en skjult melding kan du bruke følgende kode i terminalen:
+  `cat originalImage.jpg zipFileWithMessageTxt.zip > stegonographyImage.jpg`.
 - Skriv kode for å hente svar fra brukeren og sjekke det. Hvis svaret er riktig, lenk til neste oppgave.
 - Lag et hint og skjul det på siden.
 
